@@ -1,16 +1,16 @@
-# 📘 Probability Density Function using Non-Linear Model
+##  Probability Density Function using Non-Linear Model
 
 This project demonstrates how to learn a probability density function after applying a roll-number-based non-linear transformation to NO2 air quality data.
 
 ---
 
-## 📌 Methodology
+##  Methodology
 
 Data Loading → Column Selection → Non-Linear Transformation → Parameter Estimation → Display Results
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 - File: data.csv  
 - Feature Used: no2  
@@ -19,7 +19,7 @@ The dataset contains air quality measurements. Only the NO2 column is used for t
 
 ---
 
-## 🔄 Data Transformation
+##  Data Transformation
 
 Each NO2 value x is transformed into z using:
 
@@ -35,7 +35,7 @@ This step introduces roll-number-based non-linearity into the data.
 
 ---
 
-## 📐 Probability Density Function
+##  Probability Density Function
 
 After transformation, the following model is assumed:
 
@@ -51,7 +51,7 @@ The parameters lambda, mu, and c are learned using Maximum Likelihood Estimation
 
 ---
 
-## 📊 Results
+##  Results
 <img width="971" height="60" alt="image" src="https://github.com/user-attachments/assets/9ee25b05-0e8d-45ec-94c7-3940177cb21a" />
 
 
